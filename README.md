@@ -3,7 +3,7 @@ This project is a reproducer to show that the request scope is not active
 during the execution of methods with Microprofile @Asynchronous
 
 When AsynchronousSevice.asynchronousMethod is called via
-the Reproducer reasteasy resource the request scope is active.
+the reasteasy resource named Reproducer the request scope is active.
 
 When AsynchronousSevice.asynchronousMethod is called via 
 Consumer.onMessage the request scope is not active.
